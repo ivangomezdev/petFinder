@@ -1,0 +1,22 @@
+.myPetsPage__cont{
+   border: solid 2px black;
+    margin: 140px auto;
+    text-align: center;
+    justify-items: center;
+    width: 410px;
+   background-color: rebeccapurple;
+   padding: 5px;
+   border-radius: 5px;
+   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+
+@media(max-width: 450px){
+   .myPetsPage__cont {
+   width: 310px;
+     
+     }
+ }

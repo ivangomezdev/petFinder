@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden ;
+
+}
+
+
+.main__loading{
+  text-align: center;
+  margin: 150px auto;
+   width: 120px;
+   color: green;
+ font-weight: bold;
+}

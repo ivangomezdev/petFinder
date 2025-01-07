@@ -1,0 +1,22 @@
+.footer__cont{
+    position: fixed;
+    margin-top: 300px;
+   display: flex;
+   justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: #2E0152 ;
+    margin-bottom: -10px;
+    padding: 10px;
+}
+
+@media (max-width:650px){
+    .footer__cont{
+        position: relative;
+        
+       
+    }
+}

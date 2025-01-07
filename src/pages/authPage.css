@@ -1,0 +1,19 @@
+.authPage__cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.authPage__title{
+    position: absolute;
+    background-color: #6504B5;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    padding: 15px;
+    color: whitesmoke;
+    border-radius: 0px 350px 350px 0px;
+    left: -5px;
+    top: 86px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}

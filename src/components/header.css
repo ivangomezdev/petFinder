@@ -1,0 +1,30 @@
+.header__navBar {
+  background-color: #6504b5;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 3px rgb(199, 199, 199);
+  text-shadow: 1px 1px 2px black;
+}
+
+.header__img {
+  position: absolute;
+  left: 1px;
+  width: 60px;
+  top: -18px;
+  border-radius: 10px 10px 300px;
+  background: rgb(9, 71, 3);
+  background: linear-gradient(
+    31deg,
+    rgb(11, 151, 23) 0%,
+    rgb(107, 112, 33) 67%,
+    rgb(96, 83, 213) 100%
+  );
+  padding: 5px;
+  transform: rotate(270deg);
+  height: "70px";
+
+  box-shadow: 5px 5px 5px 0px rgba(188, 173, 0, 0.75);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(188, 173, 0, 0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(188, 173, 0, 0.75);
+}

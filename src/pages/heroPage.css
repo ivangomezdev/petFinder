@@ -1,0 +1,167 @@
+
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+   
+    background: linear-gradient(120deg, #6a5acd, #836fff);
+    color: white;
+  }
+
+  .heroPage__image{
+    position: absolute ;
+    right: 10%;
+    top: 80px;
+    width: 200px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .cta-button {
+    background-color: #ff6f61;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .categories {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .categories h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .heroPage__imageAnimated{
+    position:absolute;
+    left: 0px;
+    top: 154px;
+  }
+  
+  .heroPage__cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+    
+  .heroPage__cards-container img{
+    width: 200px !important;
+  }
+  
+  .heroPage__card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 240px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .heroPage__card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .heroPage__card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .heroPage__card h3 {
+    margin: 15px 0;
+  }
+  
+  .heroPage__card button {
+    background-color: #6a5acd;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .heroPage__testimonials {
+    background: rgb(249,249,249);
+    background: linear-gradient(31deg, rgba(249,249,249,1) 0%, rgba(249,249,249,1) 67%, rgba(255,255,255,1) 100%);
+    padding: 20px 20px;
+    text-align: center;
+     margin-bottom: 35px;
+   
+   
+  }
+
+
+  
+  .heroPage__testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .heroPage__text{
+    animation: slideIn 1s forwards;
+  }
+  
+
+  @keyframes slideIn {
+    from {
+        left: -100%;
+        opacity: 0;
+    }
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+
+  .testimonial blockquote {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .heroPage__hugPet{
+    position: absolute;
+    right: 0px;
+    bottom: 190px;
+  }
+
+  @media (max-width:1051px) {
+    .heroPage__imageAnimated{
+        display: none;
+    }
+
+    .heroPage__image{
+        display: none;
+    }
+  } 

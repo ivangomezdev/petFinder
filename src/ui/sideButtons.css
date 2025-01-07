@@ -1,0 +1,30 @@
+.side-buttons {
+    position: absolute;
+    left: 315px;
+    top:65px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    transform: rotate(90deg);
+    color: white;
+  }
+
+.side-buttons button {
+    background: #6a0dad;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+  .side-buttons button:hover {
+    background: #500c8f;
+  }
+
+  @media(max-width:800px){
+    .side-buttons{
+      left: 284px;
+      top:65px;
+    }
+  }

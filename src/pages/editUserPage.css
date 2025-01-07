@@ -1,0 +1,7 @@
+.editUser__cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    gap: 20px;
+}

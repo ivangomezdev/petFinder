@@ -1,0 +1,14 @@
+.userPage__cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 70px;
+}
+
+@media (max-width:650px){
+    .userPage__cont{
+     margin-top: 150px;
+    }
+  }

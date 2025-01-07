@@ -1,0 +1,62 @@
+/* Lista de navegación: Estilo base */
+.listItems__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row; /* Horizontal por defecto */
+    text-decoration: none;
+    font-size: 18px;
+    color: black !important;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Enlaces de navegación */
+  .listItems__navLink {
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 60px;
+  }
+  
+  /* Botón de menú hamburguesa */
+  .menu-toggle {
+    display: none; /* Oculto por defecto */
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  /* Responsive: Estilos para pantallas menores a 750px */
+  @media (max-width: 750px) {
+    .menu-toggle {
+        
+      display: block; /* Mostrar el botón hamburguesa */
+    }
+  
+    .listItems__list {
+      display: none; /* Ocultar la lista por defecto */
+      flex-direction: column; /* Cambiar a diseño vertical */
+      background-color: #6504B5; /* Fondo oscuro para el menú desplegable */
+      position: absolute;
+
+      top: 60px; /* Ajustar según la altura de tu navbar */
+      left: 0;
+      right: 0;
+      padding: 20px;
+      z-index: 1000; /* Asegura que esté encima de otros elementos */
+    }
+  
+    .listItems__list.active {
+              text-align: center !important;
+      display: flex; /* Mostrar el menú al activar */
+    }
+  
+    .listItems__navLink {
+      margin: 10px 0; /* Separación vertical entre enlaces */
+      text-align: left;
+      padding: 10px 15px;
+    }
+  } 

@@ -1,0 +1,13 @@
+.map-container {
+ 
+    width: 100%; /* Ajusta según el contenedor */
+    max-width: 500px; /* Define un límite máximo si es necesario */
+    height: 300px; /* Tamaño fijo para evitar que cambie con la imagen */
+    margin: 0 auto; /* Centra el mapa */
+    position: relative; /* Mantiene la posición dentro del flujo */
+  }
+  
+  .map-container img {
+    max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+    height: auto; /* Mantiene las proporciones de la imagen */
+  }
