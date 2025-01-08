@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+
 import Button from "../ui/Button";
 import "./userConfig.css";
 import { Link } from "react-router";

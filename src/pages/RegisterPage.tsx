@@ -1,4 +1,4 @@
-import React, { FormEvent, FormEventHandler } from "react";
+
 import Form from "../components/Form";
 import "./registePage.css";
 import useAuth from "../hooks/UseFormController";

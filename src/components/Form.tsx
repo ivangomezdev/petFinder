@@ -1,4 +1,4 @@
-import React, { FormEvent } from "react";
+import React from "react";
 import Input from "../ui/Input";
 import Label from "../ui/Label";
 import "./form.css";

@@ -3,6 +3,9 @@
   "target": "ESNext",
   "outDir": "./dist",
   "esModuleInterop": true,
+  "strict": false,
+  "noUnusedLocals": false,
+  "noUnusedParameters": false
 },
 "files": [],
 "references": [

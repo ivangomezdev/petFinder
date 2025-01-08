@@ -9,13 +9,16 @@ export const userData = selector({
   key: "tokenData", // unique ID (with respect to other atoms/selectors)
   get: async ({ get }) => {
     const myToken = get(token);
-    const response = await fetch("https://petfinderserver-production.up.railway.app/me", {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${myToken}`,
-      },
-    });
+    const response = await fetch(
+      "https://petfinderserver-production.up.railway.app/me",
+      {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${myToken}`,
+        },
+      }
+    );
 
     if (!response.ok) {
       throw new Error(`Error ${response.status}: ${response.statusText}`);
@@ -31,7 +34,6 @@ export const pets = atom({
   key: "petsData",
   default: {},
 });
-
 
 export const petsDataState = atom({
   key: "petsDataState",
