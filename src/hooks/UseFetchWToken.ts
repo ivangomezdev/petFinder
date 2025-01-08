@@ -17,7 +17,7 @@ const UseFetchWToken = () => {
     const formData = formController(e);
 
     try {
-      const response = await fetch("petfinderserver.railway.internal/me", {
+      const response = await fetch("https://petfinderserver-production.up.railway.app/me", {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

@@ -15,7 +15,7 @@ const useAuth = () => {
     const formData = formController(e);
 
     try {
-      const response = await fetch("petfinderserver.railway.internal/auth", {
+      const response = await fetch("https://petfinderserver-production.up.railway.app/auth", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -45,7 +45,7 @@ const useAuth = () => {
     const formData = formController(e);
 
     try {
-      const response = await fetch("petfinderserver.railway.internal/auth/token", {
+      const response = await fetch("https://petfinderserver-production.up.railway.app/auth/token", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

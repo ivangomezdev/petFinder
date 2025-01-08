@@ -1,7 +1,7 @@
-import React, { FormEvent, useState } from "react";
+import React, {  useState } from "react";
 import Label from "../ui/Label";
 import { MyMap } from "./Map";
-import useData from "../hooks/UseMyPets";
+
 
 type EditFormProps = {
   filteredData: any[];
@@ -19,7 +19,7 @@ const EditForm = ({ filteredData, submitEdit }: EditFormProps) => {
     <>
       {filteredData?.map((i) => (
         <form
-          onSubmit={(e) => submitEdit(e, i.id)} // Pasamos el evento y el id
+          onSubmit={() => submitEdit(i.id)} // Pasamos el evento y el id
           className="popup__contentEdit"
           key={i.id}
         >

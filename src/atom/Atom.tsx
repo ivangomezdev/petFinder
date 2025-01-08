@@ -1,4 +1,4 @@
-import { atom, selector, useSetRecoilState } from "recoil";
+import { atom, selector } from "recoil";
 
 export const token = atom({
   key: "token", // unique ID (with respect to other atoms/selectors)
@@ -9,7 +9,7 @@ export const userData = selector({
   key: "tokenData", // unique ID (with respect to other atoms/selectors)
   get: async ({ get }) => {
     const myToken = get(token);
-    const response = await fetch("petfinderserver.railway.internal/me", {
+    const response = await fetch("https://petfinderserver-production.up.railway.app/me", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
