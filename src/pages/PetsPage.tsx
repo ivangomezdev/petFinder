@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
 import PetCard from "../components/PetCard";
 import "./petsPage.css";
-import EmptyPetsPage from "./EmptyPetsPage";
+
 import useData from "../hooks/UseMyPets";
 
 const PetsPage = () => {

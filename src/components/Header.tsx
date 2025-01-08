@@ -3,9 +3,8 @@ import "./header.css";
 
 import kittenLogo from "../assets/huellas.png";
 import { useRecoilValue } from "recoil";
-import { token, userData } from "../atom/Atom";
+import { token } from "../atom/Atom";
 import NavLinks from "../ui/NavLinks";
-import { Rotate } from "@cloudinary/url-gen/actions";
 
 export const Header = () => {
   const fetchUser = useRecoilValue(token);

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect } from "react";
 import useData from "../hooks/UseMyPets";
 import Card from "../components/Card";
 import "./myPetsPage.css";

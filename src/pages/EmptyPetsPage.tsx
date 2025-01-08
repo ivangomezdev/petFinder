@@ -1,4 +1,4 @@
-import React from "react";
+
 import cleanImage from "../assets/cleanPage.png"
 import Button from "../ui/Button";
 import { Link } from "react-router";

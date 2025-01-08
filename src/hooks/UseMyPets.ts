@@ -1,4 +1,4 @@
-import React, { FormEvent, useEffect } from "react";
+import  { useEffect } from "react";
 import { useRecoilState, useRecoilValue } from "recoil";
 import { allPetsData, petsDataState, token } from "../atom/Atom";
 

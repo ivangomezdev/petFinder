@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./heroPage.css";
 import huellas from "../assets/huellas.png";
 import dog from "../assets/dog.png";

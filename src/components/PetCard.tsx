@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import {  useState } from "react";
 import "./petCard.css";
 import Popup from "./PopUp";
 import { useRecoilValue } from "recoil";
 import { allPetsData } from "../atom/Atom";
-import useData from "../hooks/UseMyPets";
+
 import EmptyPetsPage from "../pages/EmptyPetsPage";
 import { formData } from "../data/formData";
 

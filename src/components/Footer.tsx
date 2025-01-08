@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./footer.css";
 import face from "../assets/face.png"
 import ig from "../assets/ig.png"

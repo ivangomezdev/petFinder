@@ -1,4 +1,4 @@
-import React from "react";
+
 import Form from "../components/Form";
 import "./authPage.css";
 import useAuth from "../hooks/UseFormController";
