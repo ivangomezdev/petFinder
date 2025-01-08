@@ -65,7 +65,7 @@ const UsePetForm = () => {
 
 
     try {
-      const petPetition = await fetch("http://localhost:3000/pets", {
+      const petPetition = await fetch("petfinderserver.railway.internal/pets", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

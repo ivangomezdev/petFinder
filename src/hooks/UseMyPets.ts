@@ -9,7 +9,7 @@ const useData = () => {
 
   const showMyPets = async () => {
     try {
-      const response = await fetch("http://localhost:3000/me/pets", {
+      const response = await fetch("petfinderserver.railway.internal/me/pets", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -25,7 +25,7 @@ const useData = () => {
 
   const deletePet = async (id: string) => {
     try {
-      const response = await fetch(`http://localhost:3000/me/pets/${id}`, {
+      const response = await fetch(`petfinderserver.railway.internal/me/pets/${id}`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
@@ -41,7 +41,7 @@ const useData = () => {
   };
 
   const petsFetch = async () => {
-    const response = await fetch("http://localhost:3000/pets", {
+    const response = await fetch("petfinderserver.railway.internal/pets", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -66,7 +66,7 @@ const useData = () => {
     
 
     try {
-      const response = await fetch(`http://localhost:3000/me/pets/${id}`, {
+      const response = await fetch(`petfinderserver.railway.internal/me/pets/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

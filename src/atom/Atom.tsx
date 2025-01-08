@@ -9,7 +9,7 @@ export const userData = selector({
   key: "tokenData", // unique ID (with respect to other atoms/selectors)
   get: async ({ get }) => {
     const myToken = get(token);
-    const response = await fetch("http://localhost:3000/me", {
+    const response = await fetch("petfinderserver.railway.internal/me", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

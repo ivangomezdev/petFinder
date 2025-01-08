@@ -15,7 +15,7 @@ const useAuth = () => {
     const formData = formController(e);
 
     try {
-      const response = await fetch("http://localhost:3000/auth", {
+      const response = await fetch("petfinderserver.railway.internal/auth", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -45,7 +45,7 @@ const useAuth = () => {
     const formData = formController(e);
 
     try {
-      const response = await fetch("http://localhost:3000/auth/token", {
+      const response = await fetch("petfinderserver.railway.internal/auth/token", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
